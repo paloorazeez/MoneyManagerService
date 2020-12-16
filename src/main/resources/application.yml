@@ -1,0 +1,13 @@
+spring:
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration
+
+mongodb:
+  primary:
+    host: localhost
+    port: 27017
+    database: moneymanager
+  secondary:
+    host: localhost
+    port: 27017
+    database: moneymanager_hist
